@@ -1,0 +1,38 @@
+{
+  "name": "jike-gulp",
+  "version": "1.0.0",
+  "description": "> 基于[gulp-rev](https://github.com/sindresorhus/gulp-rev) + [gulp-rev-collector](https://github.com/shonny-ua/gulp-rev-collector)根据文件MD5值自动添加版本号，提供修改插件改变`xxx-md5.xx`为`xxx.xx?v=md5`方法     > 压缩JS、Css、Html     > [Autoprefixer](https://github.com/sindresorhus/gulp-autoprefixer)自动添加浏览器厂商兼容前缀",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "del": "^2.2.1",
+    "gulp-if": "^2.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rev": "^7.1.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rev-collector": "^1.0.4",
+    "gulp-csslint": "^0.3.1",
+    "gulp-uglify": "^1.5.4",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "run-sequence": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdwxls/jike-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xdwxls/jike-gulp/issues"
+  },
+  "homepage": "https://github.com/xdwxls/jike-gulp#readme"
+}

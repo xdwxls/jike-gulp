@@ -1,0 +1,1 @@
+function showMe(s){console.log(s)}showMe("wangpeis000"),showMe("wangxsdfsdf111"),console.log("ssxxxsssxxcvfsdfsdf");
